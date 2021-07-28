@@ -43,5 +43,5 @@ RUN curl -sL https://packages.microsoft.com/keys/microsoft.asc | \
       azure-cli \
 	    dotnet-sdk-3.1 \
 	    aspnetcore-runtime-3.1 \
-	    azure-functions-core-tools && \
+	    azure-functions-core-tools-3 && \
 	  rm -rf /var/lib/apt/lists/*
